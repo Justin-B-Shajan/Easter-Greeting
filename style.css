@@ -54,16 +54,16 @@
     transition: all 0.3s ease;
     animation: beat 1s infinite;
     transition: transform 0.2s;
-}
+ }
 
-@keyframes beat {
-  0%, 100% {
+ @keyframes beat {
+   0%, 100% {
     transform: scale(1);
   }
   50% {
     transform: scale(1.2);
   }
-  }
+}
   
   .heart-button:hover {
     background-color: #d81b60;
